@@ -1,0 +1,30 @@
+1. Чтобы реализовать методы like и dislike в shell 2 способа:
+1) p = Post.objects.get(pk=1) # Путем присваивания объекта переменной
+   p.like()
+2) Post.objects.get(pk = 1).like () # Напрямую, без присваивания
+2. Метод отображения превью также может быть реализован двумя способами
+но чтобы не растягивать напишу 1 (прямой)
+   Post.objects.get(pk=1).preview()
+3. Метод update_rating
+   Author.objects.get(pk=1).update_rating()
+4. Создание пользователя (User)
+   User.objects.create(username = 'Nikita') или как показано в модуле:
+   User.objects.create_user('Nikita')
+5. Создать объект модели Author, связанные с пользователями (User) (Нужно было сделать двух)
+   Author.objects.create(Author_to_user = 1)
+6. Создать объект модели Category (Нужно было сделать 4)
+   Category.objects.create(name = 'BASKETBALL')
+7. Создать объект модели Post (Новость и статью)
+   Новость: Post.objects.create(author = Author.objects.get(pk=1), category_type = 'NW', title = 'anytitle', text = 'anybigtext')
+   Статья: Post.objects.create(author = Author.objects.get(pk=1), category_type = 'AR', title = 'anytitle', text = 'anybigtext')
+8. Присвоить посту категорию:
+   Post.objects.get(pk=1).postCategory.add(Category.objects.get(pk=1))
+9. Вывести username лучшего польшователя:
+   bestAuthor = Author.objects.order_by('-ratingAuthor').first().Author_to_user
+   bestAuthor # Чтобы консоль показала нам лучшего автора
+10. Вывести дату добавления, username автора, рейтинг, заголовок и превью лучшей статьи, основываясь на лайках/дислайках к этой статье.
+    bestPost = [Post.objects.order_by('rating').first().dateCreation.date(), Post.objects.order_by('rating').first().author.Author_to_user, Post.objects.order_by('rating').first().title, Post.objects.order_by('rating').first().preview()]
+    bestPost # Чтобы консоль показала нам лучший пост
+11. Вывести все комментарии (дата, пользователь, рейтинг, текст) к этой статье.
+    commentsofbestpost = Comment.objects.filter(commentPost = Post.objects.order_by('rating').first()).values('dateCreation',"commentUser__username",'rating', 'text')
+    commentsofbestpost

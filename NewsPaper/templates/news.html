@@ -6,6 +6,26 @@ News
 {% endblock title %}
 
 {% block content %}
-<h1>Все Новости</h1>
-{{ news }}
+    <h1>Все Новости</h1>
+    <h3>{{ time_now|date:'M d Y' }}</h3>
+    <h3>Всего новостей {{ news|length }}</h3>
+    <hr>
+    {% if news %}
+        <table>
+            <tr>
+                <td>Заголовок</td>
+                <td>Дата публикации</td>
+                <td>Статья</td>
+            </tr>
+            {% for post in news %}
+            <tr>
+                <td>{{ post.title }}</td>
+                <td>{{ post.dateCreation|date:'d M Y'}}</td>
+                <td>{{ post.text|truncatewords:20 }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <h2>Новостей нет!</h2>
+    {% endif %}
 {% endblock content %}

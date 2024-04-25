@@ -6,7 +6,7 @@ from .models import Post
 
 class NewsList(ListView):
     model = Post
-    ordering = 'title'
+    ordering = '-dateCreation'
     # queryset = Post.objects.order_by('title').values('title')
     template_name = 'news.html'
     context_object_name = 'news'

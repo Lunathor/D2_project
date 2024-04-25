@@ -5,5 +5,7 @@ Post
 {% endblock title %}
 
 {% block content %}
-<h1>{{ news }}</h1>
+    <h1>{{ news.title }}</h1>
+    <h2>{{ news.dateCreation|date:'d M Y' }}</h2>
+    <p>{{ news.text }}</p>
 {% endblock content %}

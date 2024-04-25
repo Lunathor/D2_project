@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Добавлен табличный вывод новостей">
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/post.html" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Улучшено DetailedView для Каждой отдельно взятой новости">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714042059794</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Улучшено DetailedView для Каждой отдельно взятой новости">
+      <option name="closed" value="true" />
+      <created>1714042433258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714042433258</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Улучшено DetailedView для Каждой отдельно взятой новости">
+      <option name="closed" value="true" />
+      <created>1714042496850</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714042496850</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -147,6 +164,7 @@
     <MESSAGE value="some frontend initiated" />
     <MESSAGE value="some frontend changes" />
     <MESSAGE value="Добавлен табличный вывод новостей" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлен табличный вывод новостей" />
+    <MESSAGE value="Улучшено DetailedView для Каждой отдельно взятой новости" />
+    <option name="LAST_COMMIT_MESSAGE" value="Улучшено DetailedView для Каждой отдельно взятой новости" />
   </component>
 </project>

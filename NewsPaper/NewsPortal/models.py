@@ -19,6 +19,9 @@ class Author(models.Model):
         
         self.ratingAuthor = pRate * 3 + cRate
         self.save()
+        
+    def __str__(self):
+        return self.Author_to_user.username
 
 
 class Category(models.Model):

@@ -3,15 +3,13 @@ from .models import Post, Category
 
 
 class PostFilter(FilterSet):
-    category = ModelChoiceFilter(
-        field_name='PostCategory__category',
-        queryset=Category.objects.all(),
-    
-    )
+    category = ModelChoiceFilter(field_name='postCategory',
+                                 queryset=Category.objects.all(),
+                                 empty_label='Все',
+                                 )
     
     class Meta:
         model = Post
         fields = {
-            'title': ['icontains'],
-            'postCategory__categoryThrough': ['exact'],
+            'title': ['icontains']
         }

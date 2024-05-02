@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="попытка на создание фильтрации из итогового задания D4, фильтрация по названию (title) поста добавлена успешно, попытка на создание фильтрации по сквозному полю не работает почему то (обращусь к координатору и допилю)">
+      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0002_rename_categorythrough_postcategory_category_and_more.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714647101448</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="попытка на создание фильтрации из итогового задания D4, фильтрация по названию (title) поста добавлена успешно, попытка на создание фильтрации по сквозному полю не работает почему то (обращусь к координатору и допилю)">
+      <option name="closed" value="true" />
+      <created>1714653615349</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1714653615349</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -11,4 +11,5 @@ class PostForm(forms.ModelForm):
             'postCategory',
             'text',
         ]
+
         

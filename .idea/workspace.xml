@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="попытка на создание фильтрации из итогового задания D4, фильтрация по названию (title) поста добавлена успешно, попытка на создание фильтрации по сквозному полю не работает почему то (обращусь к координатору и допилю)">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0002_rename_categorythrough_postcategory_category_and_more.py" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Я Да*н я поменял ForignKey в модели PostCategory и не сделал миграции из за чего оно не работало, но я вспомнил об этом поэтому я все равно умничка :)">
+      <change afterPath="$PROJECT_DIR$/NewsPaper/templates/create_article.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/templates/create_news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/templates/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -196,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714653615349</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Я Да*н я поменял ForignKey в модели PostCategory и не сделал миграции из за чего оно не работало, но я вспомнил об этом поэтому я все равно умничка :)">
+      <option name="closed" value="true" />
+      <created>1714654745371</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1714654745371</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,6 +226,7 @@
     <MESSAGE value="Добавлены фильтры и теги, упразднен метод get_context_data в views.py и заменен на фильтр current_time.&#10;Создан фильтр цензурирующий, не желательный контекст (сейчас для примера написано содержание одной из статей)" />
     <MESSAGE value="Добавлена пагинация, в админ панель, зарегистрированы модели категории и категории постов. Подключено приложение DJango-filters." />
     <MESSAGE value="попытка на создание фильтрации из итогового задания D4, фильтрация по названию (title) поста добавлена успешно, попытка на создание фильтрации по сквозному полю не работает почему то (обращусь к координатору и допилю)" />
-    <option name="LAST_COMMIT_MESSAGE" value="попытка на создание фильтрации из итогового задания D4, фильтрация по названию (title) поста добавлена успешно, попытка на создание фильтрации по сквозному полю не работает почему то (обращусь к координатору и допилю)" />
+    <MESSAGE value="Я Да*н я поменял ForignKey в модели PostCategory и не сделал миграции из за чего оно не работало, но я вспомнил об этом поэтому я все равно умничка :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Я Да*н я поменял ForignKey в модели PostCategory и не сделал миграции из за чего оно не работало, но я вспомнил об этом поэтому я все равно умничка :)" />
   </component>
 </project>

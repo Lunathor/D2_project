@@ -2,11 +2,13 @@ from django import forms
 from .models import Post
 
 
-class PostSearchForm(forms.ModelForm):
+class PostForm(forms.ModelForm):
     class Meta:
         model = Post
-        field = [
+        fields = [
+            'author',
             'title',
             'postCategory',
-            'dateCreation'
+            'text',
         ]
+        

@@ -1,4 +1,4 @@
-from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Post
@@ -37,7 +37,8 @@ class NewsSearchList(ListView):
         return context
     
     
-class NewsCreate(LoginRequiredMixin, CreateView):
+class NewsCreate(PermissionRequiredMixin, CreateView):
+    permission_required = ('NewsPaper.add_post',)
     raise_exception = True
     form_class = PostForm
     model = Post
@@ -49,7 +50,8 @@ class NewsCreate(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
     
     
-class ArticleCreate(LoginRequiredMixin, CreateView):
+class ArticleCreate(PermissionRequiredMixin, CreateView):
+    permission_required = ('NewsPortal.add_post',)
     raise_exception = True
     form_class = PostForm
     model = Post
@@ -61,14 +63,16 @@ class ArticleCreate(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
     
     
-class PostUpdate(LoginRequiredMixin, UpdateView):
+class PostUpdate(PermissionRequiredMixin, UpdateView):
+    permission_required = ('NewsPortal.change_post',)
     raise_exception = True
     form_class = PostForm
     model = Post
     template_name = 'post_update.html'
     
     
-class PostDelete(LoginRequiredMixin, DeleteView):
+class PostDelete(PermissionRequiredMixin, DeleteView):
+    permission_required = ('NewsPortal.delete_post',)
     raise_exception = True
     model = Post
     template_name = 'post_delete.html'

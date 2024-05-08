@@ -35,16 +35,20 @@
                            <a class="nav-link" href="/news/search/">Search</a>
                        </li>
                        <li class="nav-item">
-                           <a class="nav-link" href="/news/create/">Create News</a>
-                       </li>
-                       <li class="nav-item">
-                           <a class="nav-link" href="/news/article/create">Create Article</a>
-                       </li>
-                       <li class="nav-item">
                            <a class="nav-link" href="/accounts/login/">Login</a>
                        </li>
                        <li class="nav-item">
                            <a class="nav-link" href="/accounts/signup/">Sign Up</a>
+                       </li>
+                       <li class="nav-item">
+                           {% if perms.NewsPortal.add_post %}
+                           <a class="nav-link" href="/news/create/">Create News</a>
+                           {% endif %}
+                       </li>
+                       <li class="nav-item">
+                           {% if perms.NewsPortal.add_post %}
+                           <a class="nav-link" href="/news/article/create">Create Article</a>
+                           {% endif %}
                        </li>
                    </ul>
                </div>

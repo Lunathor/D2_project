@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Реализованы Update и Delete, я не понял зачем разделять эти функции для статей и новостей если в любом случае когда мы создаем что-то из этого мы возвращаемся в PostDetail по адресу news/&lt;int:pk&gt;, и к нему можно просто добавить /update или /delete. Хотелось бы реализовать кнопки которые бы переслали на Update и Delete но я пока не знаю и не понимаю как это сделать html будет позже в курсе. Спросил в пачке, но мне пока не ответили.">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/accounts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/accounts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/templates/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/templates/registration/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/templates/registration/signup.html" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Добавил долгожданные для себя кнопки действий. В целом подогнал под прогресс D5.4, чтобы потом легче было и прогресс обоих приложений шел равномерно.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714737231966</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Добавил долгожданные для себя кнопки действий. В целом подогнал под прогресс D5.4, чтобы потом легче было и прогресс обоих приложений шел равномерно.">
+      <option name="closed" value="true" />
+      <created>1715114715241</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1715114715241</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -251,6 +244,7 @@
     <MESSAGE value="Я Да*н я поменял ForignKey в модели PostCategory и не сделал миграции из за чего оно не работало, но я вспомнил об этом поэтому я все равно умничка :)" />
     <MESSAGE value="Созданы страницы создания статей и новостей (честно пока не понял к чему это разделение). Доработан шаблон default.html чтобы сделать кнопки интерактивными, далее будут сделаны edit и delete страницы" />
     <MESSAGE value="Реализованы Update и Delete, я не понял зачем разделять эти функции для статей и новостей если в любом случае когда мы создаем что-то из этого мы возвращаемся в PostDetail по адресу news/&lt;int:pk&gt;, и к нему можно просто добавить /update или /delete. Хотелось бы реализовать кнопки которые бы переслали на Update и Delete но я пока не знаю и не понимаю как это сделать html будет позже в курсе. Спросил в пачке, но мне пока не ответили." />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализованы Update и Delete, я не понял зачем разделять эти функции для статей и новостей если в любом случае когда мы создаем что-то из этого мы возвращаемся в PostDetail по адресу news/&lt;int:pk&gt;, и к нему можно просто добавить /update или /delete. Хотелось бы реализовать кнопки которые бы переслали на Update и Delete но я пока не знаю и не понимаю как это сделать html будет позже в курсе. Спросил в пачке, но мне пока не ответили." />
+    <MESSAGE value="Добавил долгожданные для себя кнопки действий. В целом подогнал под прогресс D5.4, чтобы потом легче было и прогресс обоих приложений шел равномерно." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил долгожданные для себя кнопки действий. В целом подогнал под прогресс D5.4, чтобы потом легче было и прогресс обоих приложений шел равномерно." />
   </component>
 </project>

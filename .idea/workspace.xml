@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Подключен пакет django-apscheduler, проведены миграции">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0003_category_subscribers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0004_remove_category_subscribers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0005_subscription.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Создана модель Подписок, в настройки добавлены строки настроек содединения почтового сервера яндекса, далее буду реализовывать отправку писем при регистрации, пользователю и подтверждение почты" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716131655053</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Создана модель Подписок, в настройки добавлены строки настроек содединения почтового сервера яндекса, далее буду реализовывать отправку писем при регистрации, пользователю и подтверждение почты">
+      <option name="closed" value="true" />
+      <created>1716135566086</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1716135566086</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -275,6 +276,7 @@
     <MESSAGE value="В navbar добавил две кнопки login и signup" />
     <MESSAGE value="Добавлена группа authors и common users. Новым пользователям зарегистрированным через почту присваивается группа common users. Группе authors выданы права post view, post add, post change, post delete. Ограничены по провам некоторые ссылки: в таблице Изменить и удалить; В navbar'е Create News Create Article. Эти ссылки будут видны только у пользователя принадлежащего к группе authors. &#10;Есть вопрос как присвоить кому то даже с группой authors, в модели Author потому что в группе authors несколько пользователей, но эти же пользователи не появились в модели Author и при создании нового поста даже с нового аккаунта я все равно могу поставить автором только изначальных двух, при том что создает ее уже совершенно новый пользователь." />
     <MESSAGE value="Подключен пакет django-apscheduler, проведены миграции" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подключен пакет django-apscheduler, проведены миграции" />
+    <MESSAGE value="Создана модель Подписок, в настройки добавлены строки настроек содединения почтового сервера яндекса, далее буду реализовывать отправку писем при регистрации, пользователю и подтверждение почты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создана модель Подписок, в настройки добавлены строки настроек содединения почтового сервера яндекса, далее буду реализовывать отправку писем при регистрации, пользователю и подтверждение почты" />
   </component>
 </project>

@@ -50,6 +50,11 @@
                            <a class="nav-link" href="/news/article/create">Create Article</a>
                            {% endif %}
                        </li>
+                       <li class="nav-item">
+                           {% if user.is_authenticated %}
+                           <a class="nav-link" href="/news/subscriptions">Subscriptions</a>
+                           {% endif %}
+                       </li>
                    </ul>
                </div>
            </div>

@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="В navbar добавил две кнопки login и signup">
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715179682664</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Добавлена группа authors и common users. Новым пользователям зарегистрированным через почту присваивается группа common users. Группе authors выданы права post view, post add, post change, post delete. Ограничены по провам некоторые ссылки: в таблице Изменить и удалить; В navbar'е Create News Create Article. Эти ссылки будут видны только у пользователя принадлежащего к группе authors. &#10;Есть вопрос как присвоить кому то даже с группой authors, в модели Author потому что в группе authors несколько пользователей, но эти же пользователи не появились в модели Author и при создании нового поста даже с нового аккаунта я все равно могу поставить автором только изначальных двух, при том что создает ее уже совершенно новый пользователь.">
+      <option name="closed" value="true" />
+      <created>1715183017064</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1715183017064</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,6 +260,7 @@
     <MESSAGE value="Реализованы Update и Delete, я не понял зачем разделять эти функции для статей и новостей если в любом случае когда мы создаем что-то из этого мы возвращаемся в PostDetail по адресу news/&lt;int:pk&gt;, и к нему можно просто добавить /update или /delete. Хотелось бы реализовать кнопки которые бы переслали на Update и Delete но я пока не знаю и не понимаю как это сделать html будет позже в курсе. Спросил в пачке, но мне пока не ответили." />
     <MESSAGE value="Добавил долгожданные для себя кнопки действий. В целом подогнал под прогресс D5.4, чтобы потом легче было и прогресс обоих приложений шел равномерно." />
     <MESSAGE value="В navbar добавил две кнопки login и signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="В navbar добавил две кнопки login и signup" />
+    <MESSAGE value="Добавлена группа authors и common users. Новым пользователям зарегистрированным через почту присваивается группа common users. Группе authors выданы права post view, post add, post change, post delete. Ограничены по провам некоторые ссылки: в таблице Изменить и удалить; В navbar'е Create News Create Article. Эти ссылки будут видны только у пользователя принадлежащего к группе authors. &#10;Есть вопрос как присвоить кому то даже с группой authors, в модели Author потому что в группе authors несколько пользователей, но эти же пользователи не появились в модели Author и при создании нового поста даже с нового аккаунта я все равно могу поставить автором только изначальных двух, при том что создает ее уже совершенно новый пользователь." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлена группа authors и common users. Новым пользователям зарегистрированным через почту присваивается группа common users. Группе authors выданы права post view, post add, post change, post delete. Ограничены по провам некоторые ссылки: в таблице Изменить и удалить; В navbar'е Create News Create Article. Эти ссылки будут видны только у пользователя принадлежащего к группе authors. &#10;Есть вопрос как присвоить кому то даже с группой authors, в модели Author потому что в группе authors несколько пользователей, но эти же пользователи не появились в модели Author и при создании нового поста даже с нового аккаунта я все равно могу поставить автором только изначальных двух, при том что создает ее уже совершенно новый пользователь." />
   </component>
 </project>

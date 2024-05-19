@@ -7,13 +7,13 @@ from NewsPortal.models import PostCategory
 
 
 @receiver(m2m_changed, sender=PostCategory)
-def subscriber_notify_new_post(sender, instance, **kwargs):
+def subscriber_notify_new_post(instance, **kwargs):
     if kwargs['action'] == 'post_add':
         emails = User.objects.filter(
-            subscriptions__category=instance.category
+            subscriptions__category=instance.postCategory
         ).values_list('email', flat=True)
         
-        subject = f'Новый пост в категории {instance.category}'
+        subject = f'Новый пост в категории {instance.postCategory}'
         
         text_content = (
             f'Пост: {instance.title}\n'

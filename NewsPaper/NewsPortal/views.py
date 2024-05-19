@@ -111,5 +111,5 @@ def subscriptions(request):
     return render(
         request,
         'subscriptions.html',
-        {'categories':categories_with_subscriptions}
+        {'categories': categories_with_subscriptions}
     )

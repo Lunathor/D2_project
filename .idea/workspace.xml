@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Change models.py subscriber">
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Подтверждение почты при регистрации и кастомное сообщение к нему">
+      <change afterPath="$PROJECT_DIR$/NewsPaper/templates/subscriptions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/accounts/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -276,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716135684133</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Подтверждение почты при регистрации и кастомное сообщение к нему">
+      <option name="closed" value="true" />
+      <created>1716136882156</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716136882156</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -299,6 +309,7 @@
     <MESSAGE value="Подключен пакет django-apscheduler, проведены миграции" />
     <MESSAGE value="Создана модель Подписок, в настройки добавлены строки настроек содединения почтового сервера яндекса, далее буду реализовывать отправку писем при регистрации, пользователю и подтверждение почты" />
     <MESSAGE value="Change models.py subscriber" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change models.py subscriber" />
+    <MESSAGE value="Подтверждение почты при регистрации и кастомное сообщение к нему" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подтверждение почты при регистрации и кастомное сообщение к нему" />
   </component>
 </project>

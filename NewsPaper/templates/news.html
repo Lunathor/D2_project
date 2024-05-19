@@ -18,7 +18,9 @@ News
                 <td>Заголовок</td>
                 <td>Дата публикации</td>
                 <td>Содержания</td>
+                {% if perms.NewsPortal.change_post or perms.NewsPortal.delete_post %}
                 <td>Действия</td>
+                {% endif %}
             </tr>
             {% for post in news %}
             <tr>

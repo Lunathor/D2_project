@@ -10,10 +10,10 @@ from NewsPortal.models import PostCategory
 def subscriber_notify_new_post(instance, **kwargs):
     if kwargs['action'] == 'post_add':
         emails = User.objects.filter(
-            subscriptions__category=instance.postCategory
+            subscriptions__category__in=instance.postCategory.all()
         ).values_list('email', flat=True)
         
-        subject = f'Новый пост в категории {instance.postCategory}'
+        subject = f'Новый пост в категории {instance.postCategory.all()}'
         
         text_content = (
             f'Пост: {instance.title}\n'

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="добавлен шаблон сообщения к runapscheduler">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/celery.py" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Пытаюсь подключить RedisLabs но получается с трудом (нет)">
+      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -341,12 +342,19 @@
       <option name="project" value="LOCAL" />
       <updated>1716203579159</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Пытаюсь подключить RedisLabs но получается с трудом (нет)">
+      <option name="closed" value="true" />
+      <created>1716901599998</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1716901599998</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ex's of SkillFactory D2 FinallTest" />
     <MESSAGE value="some frontend initiated" />
     <MESSAGE value="some frontend changes" />
     <MESSAGE value="Добавлен табличный вывод новостей" />
@@ -371,6 +379,7 @@
     <MESSAGE value="Сделан m2m_changed сигнал" />
     <MESSAGE value="Доделан runapscheduler.py" />
     <MESSAGE value="добавлен шаблон сообщения к runapscheduler" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен шаблон сообщения к runapscheduler" />
+    <MESSAGE value="Пытаюсь подключить RedisLabs но получается с трудом (нет)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Пытаюсь подключить RedisLabs но получается с трудом (нет)" />
   </component>
 </project>

@@ -164,3 +164,10 @@ SERVER_EMAIL = "example@yandex.ru"
 MANAGERS = (
     ('Nikita', 'mrcoopgmz@gmail.com'),
 )
+
+# CELERY SETTINGS
+CELERY_BROKER_URL = 'redis://Lunathor:6uIgz2Y9gTvSwL151q38RirScCBa3XAe@redis-12766.c11.us-east-1-2.ec2.redns.redis-cloud.com:12766'
+CELERY_RESULT_BACKEND = 'redis://Lunathor:6uIgz2Y9gTvSwL151q38RirScCBa3XAe@redis-12766.c11.us-east-1-2.ec2.redns.redis-cloud.com:12766'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'

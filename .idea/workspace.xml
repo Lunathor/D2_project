@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Сделан m2m_changed сигнал">
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/management/commands/runapscheduler.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/management/commands/runapscheduler.py" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="добавлен шаблон сообщения к runapscheduler">
+      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/celery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,12 +325,27 @@
       <option name="project" value="LOCAL" />
       <updated>1716202254633</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Доделан runapscheduler.py">
+      <option name="closed" value="true" />
+      <created>1716203235578</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1716203235578</updated>
+    </task>
+    <task id="LOCAL-00032" summary="добавлен шаблон сообщения к runapscheduler">
+      <option name="closed" value="true" />
+      <created>1716203579159</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1716203579159</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="initial commit" />
     <MESSAGE value="ex's of SkillFactory D2 FinallTest" />
     <MESSAGE value="some frontend initiated" />
     <MESSAGE value="some frontend changes" />
@@ -350,6 +369,8 @@
     <MESSAGE value="Пробую добавить m2m_changed сигнал на создание нового поста" />
     <MESSAGE value="Инициализация runapscheduler.py понимаю как настроить переодичность, по пока не понимаю как сделать фильтрацию за неделю исключив прошлый посты" />
     <MESSAGE value="Сделан m2m_changed сигнал" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделан m2m_changed сигнал" />
+    <MESSAGE value="Доделан runapscheduler.py" />
+    <MESSAGE value="добавлен шаблон сообщения к runapscheduler" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен шаблон сообщения к runapscheduler" />
   </component>
 </project>

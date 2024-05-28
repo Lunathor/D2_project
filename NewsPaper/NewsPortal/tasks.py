@@ -5,7 +5,7 @@ from django.core.mail import EmailMultiAlternatives
 from django.template.loader import render_to_string
 
 from NewsPaper import settings
-from .models import Post, Category, PostCategory
+from .models import Post, Subscriber
 
 
 @shared_task

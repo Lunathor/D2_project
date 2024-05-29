@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Попытка через сигнал сделать рассылку о новом посте подвязав редис">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/templates/post_created_email.html" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Вроде как рабочее оповещение через таску">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/celery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/management/commands/runapscheduler.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
     </list>
@@ -366,12 +365,19 @@
       <option name="project" value="LOCAL" />
       <updated>1716906529602</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Вроде как рабочее оповещение через таску">
+      <option name="closed" value="true" />
+      <created>1717003622300</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1717003622300</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="some frontend changes" />
     <MESSAGE value="Добавлен табличный вывод новостей" />
     <MESSAGE value="Улучшено DetailedView для Каждой отдельно взятой новости" />
     <MESSAGE value="Добавлены фильтры и теги, упразднен метод get_context_data в views.py и заменен на фильтр current_time.&#10;Создан фильтр цензурирующий, не желательный контекст (сейчас для примера написано содержание одной из статей)" />
@@ -396,6 +402,7 @@
     <MESSAGE value="добавлен шаблон сообщения к runapscheduler" />
     <MESSAGE value="Пытаюсь подключить RedisLabs но получается с трудом (нет)" />
     <MESSAGE value="Попытка через сигнал сделать рассылку о новом посте подвязав редис" />
-    <option name="LAST_COMMIT_MESSAGE" value="Попытка через сигнал сделать рассылку о новом посте подвязав редис" />
+    <MESSAGE value="Вроде как рабочее оповещение через таску" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вроде как рабочее оповещение через таску" />
   </component>
 </project>

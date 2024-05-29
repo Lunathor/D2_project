@@ -9,5 +9,5 @@ from NewsPortal.models import PostCategory
 @receiver(m2m_changed, sender=PostCategory)
 def subscriber_notify_new_post(instance, **kwargs):
     if kwargs['action'] == 'post_add':
-        info_after_new_post.delay(instance.pk)
-        
+        info_after_new_post(instance.pk)
+    

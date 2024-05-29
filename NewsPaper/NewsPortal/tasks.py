@@ -16,9 +16,7 @@ def info_after_new_post(pk):
     subscriber_emails = []
     
     for category in categories:
-        subscribers_users = category.subscribers.all()
-        for sub_users in subscribers_users:
-            subscriber_emails.append(sub_users.email)
+        subscriber_emails += list(Subscriber.objects.filter(category=category).values_list('user__email', flat=True))
             
     html_content = render_to_string(
         'post_created_email.html',
@@ -31,7 +29,7 @@ def info_after_new_post(pk):
         subject=title,
         body='',
         from_email=settings.DEFAULT_FROM_EMAIL,
-        to=subscriber_emails,
+        to=set(subscriber_emails),
     )
     msg.attach_alternative(html_content, 'text/html')
     msg.send()

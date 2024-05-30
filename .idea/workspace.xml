@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Вроде как рабочее оповещение через таску">
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Вроде как рабочее оповещение через таску + таска на еженедельную рассылку">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/celery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/management/commands/runapscheduler.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -373,12 +370,19 @@
       <option name="project" value="LOCAL" />
       <updated>1717003622300</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Вроде как рабочее оповещение через таску + таска на еженедельную рассылку">
+      <option name="closed" value="true" />
+      <created>1717007960346</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1717007960346</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Добавлен табличный вывод новостей" />
     <MESSAGE value="Улучшено DetailedView для Каждой отдельно взятой новости" />
     <MESSAGE value="Добавлены фильтры и теги, упразднен метод get_context_data в views.py и заменен на фильтр current_time.&#10;Создан фильтр цензурирующий, не желательный контекст (сейчас для примера написано содержание одной из статей)" />
     <MESSAGE value="Добавлена пагинация, в админ панель, зарегистрированы модели категории и категории постов. Подключено приложение DJango-filters." />
@@ -403,6 +407,7 @@
     <MESSAGE value="Пытаюсь подключить RedisLabs но получается с трудом (нет)" />
     <MESSAGE value="Попытка через сигнал сделать рассылку о новом посте подвязав редис" />
     <MESSAGE value="Вроде как рабочее оповещение через таску" />
-    <option name="LAST_COMMIT_MESSAGE" value="Вроде как рабочее оповещение через таску" />
+    <MESSAGE value="Вроде как рабочее оповещение через таску + таска на еженедельную рассылку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Вроде как рабочее оповещение через таску + таска на еженедельную рассылку" />
   </component>
 </project>

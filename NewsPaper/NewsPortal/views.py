@@ -53,6 +53,7 @@ class NewsCreate(PermissionRequiredMixin, CreateView):
     def form_valid(self, form):
         post = form.save(commit=False)
         post.category_type = 'NW'
+        post.save()
         # info_after_new_post.delay(form.instance.pk)
         return super().form_valid(form)
     
@@ -67,6 +68,7 @@ class ArticleCreate(PermissionRequiredMixin, CreateView):
     def form_valid(self, form):
         post = form.save(commit=False)
         post.category_type = 'AR'
+        post.save()
         # info_after_new_post.delay(form.instance.pk)
         return super().form_valid(form)
     

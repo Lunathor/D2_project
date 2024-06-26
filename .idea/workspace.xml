@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Сделана команда categoryscratcher.py удаляющая все посты из определенной категории">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Админка стала чуть более удобной" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -412,12 +407,19 @@
       <option name="project" value="LOCAL" />
       <updated>1719419590373</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Админка стала чуть более удобной">
+      <option name="closed" value="true" />
+      <created>1719421964047</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1719421964047</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="попытка на создание фильтрации из итогового задания D4, фильтрация по названию (title) поста добавлена успешно, попытка на создание фильтрации по сквозному полю не работает почему то (обращусь к координатору и допилю)" />
     <MESSAGE value="Я Да*н я поменял ForignKey в модели PostCategory и не сделал миграции из за чего оно не работало, но я вспомнил об этом поэтому я все равно умничка :)" />
     <MESSAGE value="Созданы страницы создания статей и новостей (честно пока не понял к чему это разделение). Доработан шаблон default.html чтобы сделать кнопки интерактивными, далее будут сделаны edit и delete страницы" />
     <MESSAGE value="Реализованы Update и Delete, я не понял зачем разделять эти функции для статей и новостей если в любом случае когда мы создаем что-то из этого мы возвращаемся в PostDetail по адресу news/&lt;int:pk&gt;, и к нему можно просто добавить /update или /delete. Хотелось бы реализовать кнопки которые бы переслали на Update и Delete но я пока не знаю и не понимаю как это сделать html будет позже в курсе. Спросил в пачке, но мне пока не ответили." />
@@ -442,6 +444,7 @@
     <MESSAGE value="Добавлено 2 вариации рассылки при создании поста подписчикам категории 1 вариант через сигнал - рабочий, но почему то не отображает выполнение задачи в консоли Celery 2 вариант через form_valid функцию он работает исправно, то есть и отправляет сообщение и в консоли Celery видно что таска выполнена. &#10;Ну и еженедельная рассылка тоже добавлена как таска 7.5 задание выполнено" />
     <MESSAGE value="D8 добавлено кэширование навбар кешировал в default.html на 300 секунд, главную страницу на 60 секунд, переопределил в views.py метод get_object и в models.py метод save() тем самым реализовал кеширование статьи до ее изменения" />
     <MESSAGE value="Сделана команда categoryscratcher.py удаляющая все посты из определенной категории" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделана команда categoryscratcher.py удаляющая все посты из определенной категории" />
+    <MESSAGE value="Админка стала чуть более удобной" />
+    <option name="LAST_COMMIT_MESSAGE" value="Админка стала чуть более удобной" />
   </component>
 </project>

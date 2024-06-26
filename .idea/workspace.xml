@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Добавлено 2 вариации рассылки при создании поста подписчикам категории 1 вариант через сигнал - рабочий, но почему то не отображает выполнение задачи в консоли Celery 2 вариант через form_valid функцию он работает исправно, то есть и отправляет сообщение и в консоли Celery видно что таска выполнена. &#10;Ну и еженедельная рассылка тоже добавлена как таска 7.5 задание выполнено">
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/management/commands/categoryscratcher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -390,12 +386,19 @@
       <option name="project" value="LOCAL" />
       <updated>1717086180808</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="D8 добавлено кэширование навбар кешировал в default.html на 300 секунд, главную страницу на 60 секунд, переопределил в views.py метод get_object и в models.py метод save() тем самым реализовал кеширование статьи до ее изменения">
+      <option name="closed" value="true" />
+      <created>1717342788559</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1717342788560</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Добавлены фильтры и теги, упразднен метод get_context_data в views.py и заменен на фильтр current_time.&#10;Создан фильтр цензурирующий, не желательный контекст (сейчас для примера написано содержание одной из статей)" />
     <MESSAGE value="Добавлена пагинация, в админ панель, зарегистрированы модели категории и категории постов. Подключено приложение DJango-filters." />
     <MESSAGE value="попытка на создание фильтрации из итогового задания D4, фильтрация по названию (title) поста добавлена успешно, попытка на создание фильтрации по сквозному полю не работает почему то (обращусь к координатору и допилю)" />
     <MESSAGE value="Я Да*н я поменял ForignKey в модели PostCategory и не сделал миграции из за чего оно не работало, но я вспомнил об этом поэтому я все равно умничка :)" />
@@ -420,6 +423,7 @@
     <MESSAGE value="Вроде как рабочее оповещение через таску" />
     <MESSAGE value="Вроде как рабочее оповещение через таску + таска на еженедельную рассылку" />
     <MESSAGE value="Добавлено 2 вариации рассылки при создании поста подписчикам категории 1 вариант через сигнал - рабочий, но почему то не отображает выполнение задачи в консоли Celery 2 вариант через form_valid функцию он работает исправно, то есть и отправляет сообщение и в консоли Celery видно что таска выполнена. &#10;Ну и еженедельная рассылка тоже добавлена как таска 7.5 задание выполнено" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлено 2 вариации рассылки при создании поста подписчикам категории 1 вариант через сигнал - рабочий, но почему то не отображает выполнение задачи в консоли Celery 2 вариант через form_valid функцию он работает исправно, то есть и отправляет сообщение и в консоли Celery видно что таска выполнена. &#10;Ну и еженедельная рассылка тоже добавлена как таска 7.5 задание выполнено" />
+    <MESSAGE value="D8 добавлено кэширование навбар кешировал в default.html на 300 секунд, главную страницу на 60 секунд, переопределил в views.py метод get_object и в models.py метод save() тем самым реализовал кеширование статьи до ее изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="D8 добавлено кэширование навбар кешировал в default.html на 300 секунд, главную страницу на 60 секунд, переопределил в views.py метод get_object и в models.py метод save() тем самым реализовал кеширование статьи до ее изменения" />
   </component>
 </project>

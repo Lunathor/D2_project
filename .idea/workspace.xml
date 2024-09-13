@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Созданны копии бд не ломающие кодировку на xml и json">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/general.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/security.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/errors.log" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Добавлено логгирование, файлы для логов, список админов для рассылке при ошибках предусмотренной логгированием">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/12f413d200ac21851f3edbc3cb807e73.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/12f413d200ac21851f3edbc3cb807e73.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/57c5822ab08ed23c0e6bbb6773a18872.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/57c5822ab08ed23c0e6bbb6773a18872.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/91cc181979a27ca39083d54dab8e06b0.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/91cc181979a27ca39083d54dab8e06b0.djcache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -432,12 +426,19 @@
       <option name="project" value="LOCAL" />
       <updated>1719422699231</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Добавлено логгирование, файлы для логов, список админов для рассылке при ошибках предусмотренной логгированием">
+      <option name="closed" value="true" />
+      <created>1726081297156</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1726081297156</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Созданы страницы создания статей и новостей (честно пока не понял к чему это разделение). Доработан шаблон default.html чтобы сделать кнопки интерактивными, далее будут сделаны edit и delete страницы" />
     <MESSAGE value="Реализованы Update и Delete, я не понял зачем разделять эти функции для статей и новостей если в любом случае когда мы создаем что-то из этого мы возвращаемся в PostDetail по адресу news/&lt;int:pk&gt;, и к нему можно просто добавить /update или /delete. Хотелось бы реализовать кнопки которые бы переслали на Update и Delete но я пока не знаю и не понимаю как это сделать html будет позже в курсе. Спросил в пачке, но мне пока не ответили." />
     <MESSAGE value="Добавил долгожданные для себя кнопки действий. В целом подогнал под прогресс D5.4, чтобы потом легче было и прогресс обоих приложений шел равномерно." />
     <MESSAGE value="В navbar добавил две кнопки login и signup" />
@@ -462,6 +463,7 @@
     <MESSAGE value="Сделана команда categoryscratcher.py удаляющая все посты из определенной категории" />
     <MESSAGE value="Админка стала чуть более удобной" />
     <MESSAGE value="Созданны копии бд не ломающие кодировку на xml и json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Созданны копии бд не ломающие кодировку на xml и json" />
+    <MESSAGE value="Добавлено логгирование, файлы для логов, список админов для рассылке при ошибках предусмотренной логгированием" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено логгирование, файлы для логов, список админов для рассылке при ошибках предусмотренной логгированием" />
   </component>
 </project>

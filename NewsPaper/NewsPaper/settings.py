@@ -291,6 +291,7 @@ LOGGING = {
     }
 }
 
+
 LOCALE_PATH = [
     os.path.join(BASE_DIR, 'locale')
 ]

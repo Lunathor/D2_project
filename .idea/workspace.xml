@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Добавлены настройки локализатора и папка где файлы для него будут храниться" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Поправил ошибки в коде логгирования и сделал ру локализатор">
+      <change afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -439,12 +442,27 @@
       <option name="project" value="LOCAL" />
       <updated>1726239838611</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Добавлены настройки локализатора и папка где файлы для него будут храниться">
+      <option name="closed" value="true" />
+      <created>1726240007482</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1726240007482</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Поправил ошибки в коде логгирования и сделал ру локализатор">
+      <option name="closed" value="true" />
+      <created>1726337246515</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1726337246515</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Добавил долгожданные для себя кнопки действий. В целом подогнал под прогресс D5.4, чтобы потом легче было и прогресс обоих приложений шел равномерно." />
     <MESSAGE value="В navbar добавил две кнопки login и signup" />
     <MESSAGE value="Добавлена группа authors и common users. Новым пользователям зарегистрированным через почту присваивается группа common users. Группе authors выданы права post view, post add, post change, post delete. Ограничены по провам некоторые ссылки: в таблице Изменить и удалить; В navbar'е Create News Create Article. Эти ссылки будут видны только у пользователя принадлежащего к группе authors. &#10;Есть вопрос как присвоить кому то даже с группой authors, в модели Author потому что в группе authors несколько пользователей, но эти же пользователи не появились в модели Author и при создании нового поста даже с нового аккаунта я все равно могу поставить автором только изначальных двух, при том что создает ее уже совершенно новый пользователь." />
     <MESSAGE value="Подключен пакет django-apscheduler, проведены миграции" />
@@ -469,6 +487,7 @@
     <MESSAGE value="Созданны копии бд не ломающие кодировку на xml и json" />
     <MESSAGE value="Добавлено логгирование, файлы для логов, список админов для рассылке при ошибках предусмотренной логгированием" />
     <MESSAGE value="Добавлены настройки локализатора и папка где файлы для него будут храниться" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавлены настройки локализатора и папка где файлы для него будут храниться" />
+    <MESSAGE value="Поправил ошибки в коде логгирования и сделал ру локализатор" />
+    <option name="LAST_COMMIT_MESSAGE" value="Поправил ошибки в коде логгирования и сделал ру локализатор" />
   </component>
 </project>

@@ -233,7 +233,7 @@ LOGGING = {
         },
         'security_log': {
             'level': 'DEBUG',
-            'class': 'loggingFileHandler',
+            'class': 'logging.FileHandler',
             'formatter': 'general_form',
             'filename': os.path.join(BASE_DIR, 'security.log'),
         },
@@ -253,7 +253,7 @@ LOGGING = {
         'mail_admins': {
             'level': 'ERROR',
             'filters': ['require_debug_false'],
-            'class': 'django.utils.AdminEmailHandler',
+            'class': 'django.utils.log.AdminEmailHandler',
             'formatter': 'warning_form',
         },
     },
@@ -296,3 +296,4 @@ LOCALE_PATH = [
     os.path.join(BASE_DIR, 'locale')
 ]
 
+LANGUAGE_CODE = 'ru'

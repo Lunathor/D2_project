@@ -3,6 +3,8 @@ from django.core.cache import cache
 from django.db import models
 from django.db.models import Sum
 from django.urls import reverse
+from django.utils.translation import gettext as _
+from django.utils.translation import pgettext_lazy
 
 
 # Create your models here.
@@ -27,14 +29,14 @@ class Author(models.Model):
 
 
 class Category(models.Model):
-    name = models.CharField(max_length=64, unique=True)
+    name = models.CharField(max_length=64, unique=True, help_text=_('category name'))
     
     def __str__(self):
         return self.name
 
 
 class Post(models.Model):
-    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE, help_text=_('Author of the Post'))
     
     NEWS = 'NW'
     ARTICLE = 'AR'
@@ -44,9 +46,9 @@ class Post(models.Model):
     )
     category_type = models.CharField(max_length=2, choices=CATEGORY_CHOICES, default=ARTICLE)
     dateCreation = models.DateTimeField(auto_now_add=True)
-    postCategory = models.ManyToManyField(Category, through='PostCategory')
-    title = models.CharField(max_length=128)
-    text = models.TextField()
+    postCategory = models.ManyToManyField(Category, through='PostCategory', help_text=_('Category name'))
+    title = models.CharField(max_length=128, help_text=_('Title of post'))
+    text = models.TextField(verbose_name=pgettext_lazy('help text for Post model', 'This is the help text'))
     rating = models.SmallIntegerField(default=0)
     
     def like(self):

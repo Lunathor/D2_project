@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Поправил ошибки в коде логгирования и сделал ру локализатор">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0007_alter_category_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0008_alter_post_author_alter_post_postcategory_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0009_alter_post_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/cache_files/cc4ecc3998fe4143f589a98561e95a0f.djcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NewsPaper/cache_files/cd9e6747c83dffb6fa7ccf45fd92c2da.djcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/12f413d200ac21851f3edbc3cb807e73.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/12f413d200ac21851f3edbc3cb807e73.djcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/5553f98e26a3fb1b3d65ea8cf9463deb.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/5553f98e26a3fb1b3d65ea8cf9463deb.djcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/b50aacf0d266d36d3b688c33a2b31891.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/b50aacf0d266d36d3b688c33a2b31891.djcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/security.log" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/security.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -458,7 +470,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726337246515</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Поправил ошибки в коде логгирования и сделал ру локализатор">
+      <option name="closed" value="true" />
+      <created>1726337657351</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1726337657351</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

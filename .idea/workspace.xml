@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Поправил ошибки в коде логгирования и сделал ру локализатор">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0007_alter_category_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0008_alter_post_author_alter_post_postcategory_and_more.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0009_alter_post_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/cache_files/cc4ecc3998fe4143f589a98561e95a0f.djcache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewsPaper/cache_files/cd9e6747c83dffb6fa7ccf45fd92c2da.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/12f413d200ac21851f3edbc3cb807e73.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/12f413d200ac21851f3edbc3cb807e73.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/5553f98e26a3fb1b3d65ea8cf9463deb.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/5553f98e26a3fb1b3d65ea8cf9463deb.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/b50aacf0d266d36d3b688c33a2b31891.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/b50aacf0d266d36d3b688c33a2b31891.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/security.log" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/security.log" afterDir="false" />
-    </list>
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="пытаемся локализовать админку" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -483,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="В navbar добавил две кнопки login и signup" />
     <MESSAGE value="Добавлена группа authors и common users. Новым пользователям зарегистрированным через почту присваивается группа common users. Группе authors выданы права post view, post add, post change, post delete. Ограничены по провам некоторые ссылки: в таблице Изменить и удалить; В navbar'е Create News Create Article. Эти ссылки будут видны только у пользователя принадлежащего к группе authors. &#10;Есть вопрос как присвоить кому то даже с группой authors, в модели Author потому что в группе authors несколько пользователей, но эти же пользователи не появились в модели Author и при создании нового поста даже с нового аккаунта я все равно могу поставить автором только изначальных двух, при том что создает ее уже совершенно новый пользователь." />
     <MESSAGE value="Подключен пакет django-apscheduler, проведены миграции" />
     <MESSAGE value="Создана модель Подписок, в настройки добавлены строки настроек содединения почтового сервера яндекса, далее буду реализовывать отправку писем при регистрации, пользователю и подтверждение почты" />
@@ -508,6 +492,7 @@
     <MESSAGE value="Добавлено логгирование, файлы для логов, список админов для рассылке при ошибках предусмотренной логгированием" />
     <MESSAGE value="Добавлены настройки локализатора и папка где файлы для него будут храниться" />
     <MESSAGE value="Поправил ошибки в коде логгирования и сделал ру локализатор" />
-    <option name="LAST_COMMIT_MESSAGE" value="Поправил ошибки в коде логгирования и сделал ру локализатор" />
+    <MESSAGE value="пытаемся локализовать админку" />
+    <option name="LAST_COMMIT_MESSAGE" value="пытаемся локализовать админку" />
   </component>
 </project>

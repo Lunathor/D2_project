@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Кнопка локализатор в шапке">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/translation.py" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Попытка локализовать модели дает ошибку решистрации их в админке при создании миграций">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/12f413d200ac21851f3edbc3cb807e73.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/12f413d200ac21851f3edbc3cb807e73.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/5553f98e26a3fb1b3d65ea8cf9463deb.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/5553f98e26a3fb1b3d65ea8cf9463deb.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/57c5822ab08ed23c0e6bbb6773a18872.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/57c5822ab08ed23c0e6bbb6773a18872.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/91cc181979a27ca39083d54dab8e06b0.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/91cc181979a27ca39083d54dab8e06b0.djcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/cache_files/b50aacf0d266d36d3b688c33a2b31891.djcache" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/cache_files/b50aacf0d266d36d3b688c33a2b31891.djcache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +80,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713127705117</updated>
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1713591243925</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1713591243925</updated>
     </task>
     <task id="LOCAL-00002" summary="initial commit">
       <option name="closed" value="true" />
@@ -481,12 +465,19 @@
       <option name="project" value="LOCAL" />
       <updated>1726396716938</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Попытка локализовать модели дает ошибку решистрации их в админке при создании миграций">
+      <option name="closed" value="true" />
+      <created>1726398608767</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1726398608767</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Добавлена группа authors и common users. Новым пользователям зарегистрированным через почту присваивается группа common users. Группе authors выданы права post view, post add, post change, post delete. Ограничены по провам некоторые ссылки: в таблице Изменить и удалить; В navbar'е Create News Create Article. Эти ссылки будут видны только у пользователя принадлежащего к группе authors. &#10;Есть вопрос как присвоить кому то даже с группой authors, в модели Author потому что в группе authors несколько пользователей, но эти же пользователи не появились в модели Author и при создании нового поста даже с нового аккаунта я все равно могу поставить автором только изначальных двух, при том что создает ее уже совершенно новый пользователь." />
     <MESSAGE value="Подключен пакет django-apscheduler, проведены миграции" />
     <MESSAGE value="Создана модель Подписок, в настройки добавлены строки настроек содединения почтового сервера яндекса, далее буду реализовывать отправку писем при регистрации, пользователю и подтверждение почты" />
     <MESSAGE value="Change models.py subscriber" />
@@ -511,6 +502,7 @@
     <MESSAGE value="Пытаюсь локализовать админку" />
     <MESSAGE value="Добавлены настройки локализатора и папка где файлы для него будут храниться" />
     <MESSAGE value="Кнопка локализатор в шапке" />
-    <option name="LAST_COMMIT_MESSAGE" value="Кнопка локализатор в шапке" />
+    <MESSAGE value="Попытка локализовать модели дает ошибку решистрации их в админке при создании миграций" />
+    <option name="LAST_COMMIT_MESSAGE" value="Попытка локализовать модели дает ошибку решистрации их в админке при создании миграций" />
   </component>
 </project>

@@ -10,14 +10,6 @@ def nullify_rating(modeladmin, request, queryset):
 nullify_rating.short_description = 'Обнулить рейтинг'
 
 
-class CategoryAdmin(TranslationAdmin):
-    model = Category
-
-
-class PostTransAdmin(TranslationAdmin):
-    model = Post
-
-
 class PostAdmin(admin.ModelAdmin):
     list_display = ['title', 'dateCreation', 'rating']
     list_filter = ['title', 'dateCreation', 'rating']
@@ -26,6 +18,5 @@ class PostAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Post, PostAdmin)
-admin.site.register(PostTransAdmin)
 admin.site.register(PostCategory)
-admin.site.register(Category, CategoryAdmin)
+admin.site.register(Category)

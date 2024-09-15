@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Попытка локализовать модели дает ошибку решистрации их в админке при создании миграций">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="&#10;message">
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/translation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.po" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,14 +84,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713127705117</updated>
-    </task>
-    <task id="LOCAL-00002" summary="initial commit">
-      <option name="closed" value="true" />
-      <created>1713591300066</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1713591300066</updated>
     </task>
     <task id="LOCAL-00003" summary="initial commit">
       <option name="closed" value="true" />
@@ -473,12 +469,19 @@
       <option name="project" value="LOCAL" />
       <updated>1726398608767</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="&#10;message">
+      <option name="closed" value="true" />
+      <created>1726405255989</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1726405255989</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Подключен пакет django-apscheduler, проведены миграции" />
     <MESSAGE value="Создана модель Подписок, в настройки добавлены строки настроек содединения почтового сервера яндекса, далее буду реализовывать отправку писем при регистрации, пользователю и подтверждение почты" />
     <MESSAGE value="Change models.py subscriber" />
     <MESSAGE value="Подтверждение почты при регистрации и кастомное сообщение к нему" />
@@ -503,6 +506,7 @@
     <MESSAGE value="Добавлены настройки локализатора и папка где файлы для него будут храниться" />
     <MESSAGE value="Кнопка локализатор в шапке" />
     <MESSAGE value="Попытка локализовать модели дает ошибку решистрации их в админке при создании миграций" />
-    <option name="LAST_COMMIT_MESSAGE" value="Попытка локализовать модели дает ошибку решистрации их в админке при создании миграций" />
+    <MESSAGE value="&#10;message" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;message" />
   </component>
 </project>

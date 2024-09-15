@@ -119,14 +119,14 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 # CACHE
-CACHES = {
-    'default': {
-        'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
-        'LOCATION': os.path.join(BASE_DIR, 'cache_files'),  # Указываем, куда будем сохранять кэшируемые файлы! Не
-        # забываем создать папку cache_files внутри папки с manage.py!
-        'TIMEOUT': 30,
-    }
-}
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.filebased.FileBasedCache',
+#         'LOCATION': os.path.join(BASE_DIR, 'cache_files'),  # Указываем, куда будем сохранять кэшируемые файлы! Не
+#         # забываем создать папку cache_files внутри папки с manage.py!
+#         'TIMEOUT': 30,
+#     }
+# }
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/

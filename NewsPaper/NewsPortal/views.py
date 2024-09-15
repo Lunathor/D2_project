@@ -1,7 +1,6 @@
 from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 from django.http import HttpResponse
 from django.urls import reverse_lazy
-from django.views import View
 from django.views.decorators.csrf import csrf_protect
 from django.contrib.auth.decorators import login_required
 from django.db.models import Exists, OuterRef
@@ -12,7 +11,6 @@ from .filters import PostFilter
 from .forms import PostForm
 from django.core.cache import cache
 from .tasks import info_after_new_post
-from django.utils.translation import gettext as _
 
 
 class NewsList(ListView):

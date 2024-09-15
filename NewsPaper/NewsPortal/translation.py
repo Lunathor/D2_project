@@ -13,5 +13,5 @@ class CategoryTranslationOptions(TranslationOptions):
 
 
 @register(Post)
-class MyModelTranslationOptions(TranslationOptions):
+class PostTranslationOptions(TranslationOptions):
     fields = ('title', 'text')

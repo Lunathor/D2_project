@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Сделана первая часть локализации статич текста">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/translation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="message">
+      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0011_category_name_en_us_category_name_ru_post_text_en_us_and_more.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +81,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713127705117</updated>
-    </task>
-    <task id="LOCAL-00005" summary="some frontend initiated">
-      <option name="closed" value="true" />
-      <created>1713820331654</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1713820331654</updated>
     </task>
     <task id="LOCAL-00006" summary="some frontend changes">
       <option name="closed" value="true" />
@@ -474,12 +466,19 @@
       <option name="project" value="LOCAL" />
       <updated>1726409039674</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="message">
+      <option name="closed" value="true" />
+      <created>1726410020912</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1726410020912</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Change models.py subscriber" />
     <MESSAGE value="Подтверждение почты при регистрации и кастомное сообщение к нему" />
     <MESSAGE value="Добавлен интерфейс подписок" />
     <MESSAGE value="Добавил у залогиненого пользователя в navbar кнопку подписки" />
@@ -504,6 +503,7 @@
     <MESSAGE value="Попытка локализовать модели дает ошибку решистрации их в админке при создании миграций" />
     <MESSAGE value="&#10;message" />
     <MESSAGE value="Сделана первая часть локализации статич текста" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделана первая часть локализации статич текста" />
+    <MESSAGE value="message" />
+    <option name="LAST_COMMIT_MESSAGE" value="message" />
   </component>
 </project>

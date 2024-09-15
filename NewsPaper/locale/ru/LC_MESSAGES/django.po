@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-14 21:05+0300\n"
+"POT-Creation-Date: 2024-09-15 13:21+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,30 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
-#: .\NewsPortal\views.py:20
-msgid "Hello world"
-msgstr ""
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\NewsPortal\models.py:32
+msgid "category name"
+msgstr "Название категории"
+
+#: .\NewsPortal\models.py:39
+msgid "Author of the Post"
+msgstr "Автор публикации"
+
+#: .\NewsPortal\models.py:49
+msgid "Category name"
+msgstr "Название категории"
+
+#: .\NewsPortal\models.py:50
+msgid "Title of post"
+msgstr "Заголовок публикации"
+
+#: .\NewsPortal\models.py:51
+msgctxt "help text for Post model"
+msgid "This is the help text"
+msgstr "Это текст подсказка"
 
 #: .\templates\account\email\email_confirmation_message.txt:5
 #, python-format

@@ -15,14 +15,6 @@ from .tasks import info_after_new_post
 from django.utils.translation import gettext as _
 
 
-class Index(View):
-    def get(self, request):
-        string = _('Hello world')
-        
-        return HttpResponse(string)
-    
-
-
 class NewsList(ListView):
     model = Post
     ordering = '-dateCreation'

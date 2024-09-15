@@ -105,4 +105,5 @@ class Subscriber(models.Model):
         to='Category',
         on_delete=models.CASCADE,
         related_name='subscriptions',
+        
     )

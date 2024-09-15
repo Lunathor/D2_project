@@ -36,7 +36,7 @@ msgstr "Название категории"
 
 #: .\NewsPortal\models.py:50
 msgid "Title of post"
-msgstr "Заголовок публикации"
+msgstr "Заголовок публикаци"
 
 #: .\NewsPortal\models.py:51
 msgctxt "help text for Post model"

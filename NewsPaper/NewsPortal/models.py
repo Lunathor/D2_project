@@ -35,7 +35,7 @@ class Category(models.Model):
 
 
 class Post(models.Model):
-    author = models.ForeignKey(Author, on_delete=models.CASCADE, help_text=_('Author of the Post'))
+    author = models.ForeignKey(Author, on_delete=models.CASCADE, verbose_name=_('Author of the Post'))
     
     NEWS = 'NW'
     ARTICLE = 'AR'
@@ -45,9 +45,9 @@ class Post(models.Model):
     )
     category_type = models.CharField(max_length=2, choices=CATEGORY_CHOICES, default=ARTICLE)
     dateCreation = models.DateTimeField(auto_now_add=True)
-    postCategory = models.ManyToManyField(Category, through='PostCategory', help_text=_('Category name'))
-    title = models.CharField(max_length=128, help_text=_('Title of post'))
-    text = models.TextField(help_text=_('This is the help text'))
+    postCategory = models.ManyToManyField(Category, through='PostCategory', verbose_name=_('Category name'))
+    title = models.CharField(max_length=128, verbose_name=_('Title of post'))
+    text = models.TextField(verbose_name=_('Text of Post'))
     rating = models.SmallIntegerField(default=0)
     
     def like(self):

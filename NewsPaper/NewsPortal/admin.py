@@ -11,8 +11,8 @@ nullify_rating.short_description = 'Обнулить рейтинг'
 
 
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ['name',]
-    list_filter = ['name',]
+    list_display = ['name', ]
+    list_filter = ['name', ]
     search_fields = ('name',)
 
 
@@ -23,6 +23,14 @@ class PostAdmin(admin.ModelAdmin):
     actions = [nullify_rating]
 
 
-admin.site.register(Post, PostAdmin)
+class TransCategoryAdmin(CategoryAdmin, TranslationAdmin):
+    model = Category
+
+
+class TransPostAdmin(PostAdmin,TranslationAdmin):
+    model = Post
+
+
+admin.site.register(Post, TransPostAdmin)
 admin.site.register(PostCategory)
-admin.site.register(Category)
+admin.site.register(Category, TransCategoryAdmin)

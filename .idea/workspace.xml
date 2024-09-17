@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Локализация подъехала">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/create_article.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/create_article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/create_news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/create_news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/post_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/post_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/post_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/post_update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/subscriptions.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/subscriptions.html" afterDir="false" />
-    </list>
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Локализация подъехала" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,14 +78,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713127705117</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Улучшено DetailedView для Каждой отдельно взятой новости">
-      <option name="closed" value="true" />
-      <created>1714053608408</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1714053608408</updated>
     </task>
     <task id="LOCAL-00011" summary="Добавлены фильтры и теги, упразднен метод get_context_data в views.py и заменен на фильтр current_time.&#10;Создан фильтр цензурирующий, не желательный контекст (сейчас для примера написано содержание одной из статей)">
       <option name="closed" value="true" />
@@ -484,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726411654240</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Локализация подъехала">
+      <option name="closed" value="true" />
+      <created>1726579256288</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1726579256288</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

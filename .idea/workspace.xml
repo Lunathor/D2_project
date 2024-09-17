@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="message">
-      <change afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/migrations/0012_alter_post_author_alter_post_postcategory_and_more.py" afterDir="false" />
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Локализация подъехала">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/locale/ru/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/create_article.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/create_article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/create_news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/create_news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/flatpages/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/post_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/post_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/post_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/post_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewsPaper/templates/subscriptions.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/subscriptions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +91,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713127705117</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Улучшено DetailedView для Каждой отдельно взятой новости">
-      <option name="closed" value="true" />
-      <created>1714042496850</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1714042496850</updated>
     </task>
     <task id="LOCAL-00010" summary="Улучшено DetailedView для Каждой отдельно взятой новости">
       <option name="closed" value="true" />
@@ -476,12 +476,19 @@
       <option name="project" value="LOCAL" />
       <updated>1726411299481</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Локализация подъехала">
+      <option name="closed" value="true" />
+      <created>1726411654240</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1726411654240</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Подтверждение почты при регистрации и кастомное сообщение к нему" />
     <MESSAGE value="Добавлен интерфейс подписок" />
     <MESSAGE value="Добавил у залогиненого пользователя в navbar кнопку подписки" />
     <MESSAGE value="Пробую добавить m2m_changed сигнал на создание нового поста" />
@@ -506,6 +513,7 @@
     <MESSAGE value="&#10;message" />
     <MESSAGE value="Сделана первая часть локализации статич текста" />
     <MESSAGE value="message" />
-    <option name="LAST_COMMIT_MESSAGE" value="message" />
+    <MESSAGE value="Локализация подъехала" />
+    <option name="LAST_COMMIT_MESSAGE" value="Локализация подъехала" />
   </component>
 </project>

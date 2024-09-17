@@ -3,23 +3,24 @@
 
 {% load custom_filters %}
 {% load custom_tags %}
+{% load i18n %}
 
 {% block title %}
-News
+{% trans "News" %}
 {% endblock title %}
 
 {% block content %}
-    <h1>Все Новости</h1>
+    <h1>{% trans "All Posts" %}</h1>
     <h3>{% current_time '%b %d %Y' %}</h3>
     <hr>
     {% if news %}
         <table>
             <tr>
-                <td>Заголовок</td>
-                <td>Дата публикации</td>
-                <td>Содержания</td>
+                <td>{% trans "Title" %}</td>
+                <td>{% trans "Date of Publication" %}</td>
+                <td>{% trans "Text" %}</td>
                 {% if perms.NewsPortal.change_post or perms.NewsPortal.delete_post %}
-                <td>Действия</td>
+                <td>{% trans "Manage" %}</td>
                 {% endif %}
             </tr>
             {% for post in news %}
@@ -29,10 +30,10 @@ News
                 <td>{{ post.text|censor|truncatechars:20 }}</td>
                 <td>
                     {% if perms.NewsPortal.change_post %}
-                    <a href="{% url 'post_update' post.id %}">Изменить</a>
+                    <a href="{% url 'post_update' post.id %}">{% trans "Update" %}</a>
                     {% endif %}
                     {% if perms.NewsPortal.delete_post %}
-                    <a href="{% url 'post_delete' post.id %}">Удалить</a>
+                    <a href="{% url 'post_delete' post.id %}">{% trans "Delete" %}</a>
                     {% endif %}
                 </td>
             </tr>

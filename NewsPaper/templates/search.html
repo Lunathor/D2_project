@@ -2,13 +2,14 @@
 
 {% load custom_filters %}
 {% load custom_tags %}
+{% load i18n %
 
 {% block title %}
-News Search
+{% trans "Posts Search" %}
 {% endblock title %}
 
 {% block content %}
-    <h1>Поиск по публикациям</h1>
+    <h1>{% trans "Posts Search" %}</h1>
     <h3>{% current_time '%b %d %Y' %}</h3>
     <form action="" method="get">
         {{ filterset.form.as_p }}
@@ -18,9 +19,9 @@ News Search
     {% if news %}
         <table>
             <tr>
-                <td>Заголовок</td>
-                <td>Дата публикации</td>
-                <td>Содержание</td>
+                <td>{% trans "Title" %}</td>
+                <td>{% trans "Date of publication" %}</td>
+                <td>{% trans "Text" %}</td>
             </tr>
             {% for post in news %}
             <tr>

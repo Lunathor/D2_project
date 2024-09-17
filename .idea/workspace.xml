@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Пытаюсь в локализацию времени сделал соответствующий middlewares.py">
+    <list default="true" id="d0deffc4-fb07-42b6-bdb8-f1c7c46d25d2" name="Changes" comment="Локализация времени продолжается пытаюсь дать форму в шаблон а он ругается">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPaper/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/NewsPortal/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewsPaper/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/NewsPaper/templates/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,14 +82,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713127705117</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Добавлена пагинация, в админ панель, зарегистрированы модели категории и категории постов. Подключено приложение DJango-filters.">
-      <option name="closed" value="true" />
-      <created>1714643554010</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1714643554010</updated>
     </task>
     <task id="LOCAL-00013" summary="попытка на создание фильтрации из итогового задания D4, фильтрация по названию (title) поста добавлена успешно, попытка на создание фильтрации по сквозному полю не работает почему то (обращусь к координатору и допилю)">
       <option name="closed" value="true" />
@@ -476,12 +467,19 @@
       <option name="project" value="LOCAL" />
       <updated>1726580422517</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Локализация времени продолжается пытаюсь дать форму в шаблон а он ругается">
+      <option name="closed" value="true" />
+      <created>1726590644354</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1726590644354</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Добавил у залогиненого пользователя в navbar кнопку подписки" />
     <MESSAGE value="Пробую добавить m2m_changed сигнал на создание нового поста" />
     <MESSAGE value="Инициализация runapscheduler.py понимаю как настроить переодичность, по пока не понимаю как сделать фильтрацию за неделю исключив прошлый посты" />
     <MESSAGE value="Сделан m2m_changed сигнал" />
@@ -506,6 +504,7 @@
     <MESSAGE value="message" />
     <MESSAGE value="Локализация подъехала" />
     <MESSAGE value="Пытаюсь в локализацию времени сделал соответствующий middlewares.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пытаюсь в локализацию времени сделал соответствующий middlewares.py" />
+    <MESSAGE value="Локализация времени продолжается пытаюсь дать форму в шаблон а он ругается" />
+    <option name="LAST_COMMIT_MESSAGE" value="Локализация времени продолжается пытаюсь дать форму в шаблон а он ругается" />
   </component>
 </project>

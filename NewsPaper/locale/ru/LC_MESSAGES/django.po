@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-17 16:11+0300\n"
+"POT-Creation-Date: 2024-09-17 20:59+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,8 +52,6 @@ msgid ""
 msgstr ""
 
 #: .\templates\create_article.html:5
-#, fuzzy
-#| msgid "Create Article"
 msgid "Article"
 msgstr "Статья"
 
@@ -89,31 +87,35 @@ msgstr "Создать Статью"
 msgid "Subscriptions"
 msgstr "Подписки"
 
-#: .\templates\news.html:13
+#: .\templates\news.html:16 .\templates\search.html:16
+msgid "Time zone"
+msgstr "Часовой пояс"
+
+#: .\templates\news.html:33
 msgid "All Posts"
 msgstr "Все публикации"
 
-#: .\templates\news.html:19 .\templates\search.html:22
+#: .\templates\news.html:38 .\templates\search.html:41
 msgid "Title"
 msgstr "Заголовок"
 
-#: .\templates\news.html:20
+#: .\templates\news.html:39
 msgid "Date of Publication"
 msgstr "Дата публикации"
 
-#: .\templates\news.html:21 .\templates\search.html:24
+#: .\templates\news.html:40 .\templates\search.html:43
 msgid "Text"
 msgstr "Содержание"
 
-#: .\templates\news.html:23
+#: .\templates\news.html:42
 msgid "Manage"
 msgstr "Действия"
 
-#: .\templates\news.html:33
+#: .\templates\news.html:52
 msgid "Update"
 msgstr "Изменить"
 
-#: .\templates\news.html:36 .\templates\post_delete.html:9
+#: .\templates\news.html:55 .\templates\post_delete.html:9
 msgid "Delete"
 msgstr "Удалить"
 
@@ -126,12 +128,10 @@ msgid "Post"
 msgstr "Публикация"
 
 #: .\templates\search.html:8 .\templates\search.html:12
-#, fuzzy
-#| msgid "Search"
 msgid "Posts Search"
-msgstr "Поиск"
+msgstr "Поиск по публикациям"
 
-#: .\templates\search.html:23
+#: .\templates\search.html:42
 msgid "Date of publication"
 msgstr "Дата публикации"
 

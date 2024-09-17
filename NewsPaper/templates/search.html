@@ -2,15 +2,34 @@
 
 {% load custom_filters %}
 {% load custom_tags %}
-{% load i18n %
-
+{% load i18n %}
+{% load tz %}
 {% block title %}
 {% trans "Posts Search" %}
 {% endblock title %}
 
 {% block content %}
     <h1>{% trans "Posts Search" %}</h1>
-    <h3>{% current_time '%b %d %Y' %}</h3>
+    {% get_current_timezone as TIME_ZONE %}
+        <form action="" method="POST">
+            {% csrf_token %}
+            <label for="timezone">{% trans "Time zone" %}</label>
+            <select name="timezone">
+                {% for tz in timezones %}
+                <option value="{{ tz }}"{% if tz == TIME_ZONE %} selected{% endif %}>{{ tz }}</option>
+                {% endfor %}
+            </select>
+            <input type="submit" value="Set">
+        </form>
+
+        {{ TIME_ZONE }}
+        {{ current_time|timezone:TIME_ZONE }} <!-- Отображаем время в выбранном часовом поясе  -->
+
+        {% for model in models %}
+        <div class="model-class">
+            {{ model.name }}
+        </div>
+        {% endfor %}
     <form action="" method="get">
         {{ filterset.form.as_p }}
         <input type = "submit" value="Найти" />
